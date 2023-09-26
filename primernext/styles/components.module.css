@@ -1,0 +1,106 @@
+
+.header{
+    background-color: #2b2d42;
+    display: flex;
+    padding: 10px;
+}
+.titnav{
+    color: #ef233c;
+    font-size: 30px;
+    
+}
+.nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.linkNav{
+    font-size: 20px;
+    color: #ef233c;
+    text-decoration: none;
+}
+.titulo{
+    margin: 5px;
+}
+.presentacion{
+    background-color: #8d99ae;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 10px;
+}
+.imgPre{
+    border-radius: 100%;
+    margin: 10px;
+    
+}
+.infoCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #edf2f4;
+}
+.infoArt{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.contServ{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.infoServ{
+    display: flex;
+    align-items: center;
+}
+.imgServ{
+    margin: 15px;
+}
+.contTra{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.infoTra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.footer{
+    background-color: #2b2d42;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    color: #ef233c;
+
+}
+.contFoo{
+    display: flex;
+   width: 100%;
+ 
+}
+
+@media screen and (max-width: 620px) {
+.imgPre{
+    width: 200px;
+    height: 200px;
+}
+.imgtra{
+    width: 380px;
+    height: 170px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+}
+  }
